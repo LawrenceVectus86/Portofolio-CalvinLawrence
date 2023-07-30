@@ -19,6 +19,14 @@ hamburger.addEventListener('click', function () {
   navMenu.classList.toggle('hidden');
 });
 
+// klik diluar hamburger
+window.addEventListener('click', function (e) {
+  if (e.target != hamburger && e.target != navMenu) {
+    hamburger.classList.remove('hamburger-active');
+    navMenu.classList.add('hidden');
+  }
+});
+
 // Word Animation
 
 const dynamicText = document.querySelector('h1 span');
