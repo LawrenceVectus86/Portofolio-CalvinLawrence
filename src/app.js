@@ -57,3 +57,21 @@ const typeEffect = () => {
 };
 
 typeEffect();
+
+// About Section
+
+function Detail(e) {
+  const target = $(e.target);
+
+  if ($(target).hasClass('active')) {
+    $(target).html('Load More').removeClass('active');
+  } else {
+    $(target).html('Close').addClass('active');
+  }
+
+  const item = $(target).parents('.about-exp-item');
+
+  const detail = $(item).children('.about-exp-item-detail');
+
+  $(detail).slideToggle();
+}
