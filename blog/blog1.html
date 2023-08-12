@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calvin Lawrence</title>
+    <link rel="shortcut icon" href="img/1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+
+    <header class="bg-transparent absolute top-0 w-full flex items-center justify-between z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <a class="font-bold text-primary text-lg block py-6" href="#home">Calvin Lawrence</a>
+
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 top-5 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav data-aos="fade-down" id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a class="text-base text-dark py-2 mx-8 flex group-hover:text-primary" href="#home">Home</a>
+                </li>
+                <li class="group">
+                  <a class="text-base text-dark py-2 mx-8 flex group-hover:text-primary" href="#about">About Me</a>
+                </li>
+                <li class="group">
+                  <a class="text-base text-dark py-2 mx-8 flex group-hover:text-primary" href="#tech">Tech Stack</a>
+                </li>
+                <li class="group">
+                  <a class="text-base text-dark py-2 mx-8 flex group-hover:text-primary" href="#portofolio">Portofolio</a>
+                </li>
+                <li class="group">
+                  <a class="text-base text-dark py-2 mx-8 flex group-hover:text-primary" href="#sertifikat">Sertificate</a>
+                </li>
+                <li class="group">
+                  <a class="text-base text-dark py-2 mx-8 flex group-hover:text-primary" href="#blog">Blog</a>
+                </li>
+                <li class="group">
+                  <a class="text-base text-dark py-2 mx-8 flex group-hover:text-primary" href="#kontak">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <script src="./src/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
