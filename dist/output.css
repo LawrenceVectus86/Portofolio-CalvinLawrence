@@ -588,6 +588,10 @@ video {
   bottom: 0px;
 }
 
+.left-0{
+  left: 0px;
+}
+
 .left-1\/2{
   left: 50%;
 }
@@ -719,6 +723,10 @@ video {
   height: 2.25rem;
 }
 
+.h-12{
+  height: 3rem;
+}
+
 .w-20{
   width: 5rem;
 }
@@ -737,6 +745,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-12{
+  width: 3rem;
 }
 
 .max-w-\[120px\]{
@@ -963,6 +975,10 @@ video {
   padding-top: 0.5rem;
 }
 
+.pt-20{
+  padding-top: 5rem;
+}
+
 .pt-24{
   padding-top: 6rem;
 }
@@ -973,6 +989,10 @@ video {
 
 .pt-36{
   padding-top: 9rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .text-center{
@@ -1195,10 +1215,6 @@ video {
 
 .hover\:opacity-100:hover{
   opacity: 1;
-}
-
-.hover\:opacity-50:hover{
-  opacity: 0.5;
 }
 
 .hover\:opacity-70:hover{

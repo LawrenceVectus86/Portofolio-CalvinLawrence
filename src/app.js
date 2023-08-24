@@ -30,7 +30,7 @@ window.addEventListener('click', function (e) {
 // Word Animation
 
 const dynamicText = document.querySelector('h1 span');
-const words = ['Calvin Lawrence', 'Like Art', 'Like Tailwind CSS', 'Front End'];
+const words = ['Calvin Lawrence', 'Like Art', 'Like Movies', 'Like Tailwind CSS', 'Front End'];
 
 let wordIndex = 0;
 let charIndex = 0;
@@ -60,8 +60,8 @@ typeEffect();
 
 // About Section
 
-function Detail(e) {
-  const target = $(e.target);
+function Detail(a) {
+  const target = $(a.target);
 
   if ($(target).hasClass('active')) {
     $(target).html('Load More').removeClass('active');
