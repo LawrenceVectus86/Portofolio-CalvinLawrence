@@ -635,6 +635,10 @@ video {
   margin-right: auto;
 }
 
+.-mt-\[100px\]{
+  margin-top: -100px;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -649,6 +653,10 @@ video {
 
 .mb-2{
   margin-bottom: 0.5rem;
+}
+
+.mb-24{
+  margin-bottom: 6rem;
 }
 
 .mb-3{
@@ -669,6 +677,10 @@ video {
 
 .mb-8{
   margin-bottom: 2rem;
+}
+
+.ml-6{
+  margin-left: 1.5rem;
 }
 
 .ml-8{
@@ -711,8 +723,16 @@ video {
   display: inline-flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .hidden{
   display: none;
+}
+
+.h-12{
+  height: 3rem;
 }
 
 .h-32{
@@ -723,8 +743,16 @@ video {
   height: 2.25rem;
 }
 
-.h-12{
-  height: 3rem;
+.h-\[200px\]{
+  height: 200px;
+}
+
+.h-\[400px\]{
+  height: 400px;
+}
+
+.w-12{
+  width: 3rem;
 }
 
 .w-20{
@@ -743,12 +771,16 @@ video {
   width: 2.25rem;
 }
 
+.w-\[200px\]{
+  width: 200px;
+}
+
 .w-full{
   width: 100%;
 }
 
-.w-12{
-  width: 3rem;
+.max-w-2xl{
+  max-width: 42rem;
 }
 
 .max-w-\[120px\]{
@@ -792,6 +824,10 @@ video {
   cursor: pointer;
 }
 
+.grid-cols-4{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -810,6 +846,11 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.gap-x-56{
+  -moz-column-gap: 14rem;
+       column-gap: 14rem;
 }
 
 .self-end{
@@ -864,6 +905,11 @@ video {
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
 }
 
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .bg-dark{
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
@@ -877,6 +923,11 @@ video {
 .bg-slate-100{
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 .bg-slate-300{
@@ -955,6 +1006,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
 .pb-12{
   padding-bottom: 3rem;
 }
@@ -973,10 +1028,6 @@ video {
 
 .pt-2{
   padding-top: 0.5rem;
-}
-
-.pt-20{
-  padding-top: 5rem;
 }
 
 .pt-24{
@@ -1102,6 +1153,12 @@ video {
 
 .opacity-60{
   opacity: 0.6;
+}
+
+.shadow-2xl{
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-lg{

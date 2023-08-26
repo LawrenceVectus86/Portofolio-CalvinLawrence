@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calvin Lawrence</title>
+    <link rel="shortcut icon" href="../img/1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+
+    <header class="bg-transparent absolute top-0 w-full flex items-center justify-between z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <a class="font-bold text-primary text-lg block py-6" href="#home">Calvin Lawrence</a>
+
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 top-5 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav data-aos="fade-down" id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a class="text-base text-dark py-2 mx-8 flex group-hover:text-primary" href="../index.html">Back To Home</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Section Blog 1 -->
+
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-bold text-primary lg:text-5xl">
+              Tips Belajar
+              <span class="block text-slate-900 uppercase font-bold text-2xl pt-3 lg:text-5xl"></span>
+            </h1>
+            <h2 class="uppercase font-medium pt-2 text-slate-500 text-lg mb-5">Membuat Desain Website FTI</h2>
+            <p class="font-medium text-slate-400 mb-10">Desain Ini Ingin merubah tampilan Website yang ada pada Fakultas saya dengan tools figma</p>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 relative lg:mt-0 lg:right-0">
+              <img data-aos="fade-left" data-aos-duration="1000" class="max-w-full mx-auto" src="../img/Figma.jpg" alt="Calvin Lawrence" />
+              <!-- <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2"> Halo </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tecknologi -->
+
+    <section id="tech" class="pt-20 pb-16">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-bold text-primary text-2xl mb-2" data-aos="fade-down">Tech Stack</h4>
+            <h2 class="font-bold text-dark text-3xl mb-6 sm:text-4xl lg:text-5xl" data-aos="fade-left">Teknologi yang Dipakai</h2>
+            <div class="flex items-center justify-center lg:flex-row flex-col mr-5">
+              <!-- Logo HTML -->
+
+              <div class="flex mr-4" data-aos="flip-left">
+                <!-- Logo css -->
+                <span href="#" class="hover:bg-slate-200 hover:ease-out duration-300 inline-flex items-center justify-center w-32 h-32 bg-white rounded-full shadow-md ml-6">
+                  <svg width="90px" height="90px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16 16C16 13.7909 17.7909 12 20 12C22.2091 12 24 13.7909 24 16C24 18.2091 22.2091 20 20 20C17.7909 20 16 18.2091 16 16Z" fill="#1ABCFE"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M8 24C8 21.7909 9.79086 20 12 20H16V24C16 26.2091 14.2091 28 12 28C9.79086 28 8 26.2091 8 24Z" fill="#0ACF83"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16 4V12H20C22.2091 12 24 10.2091 24 8C24 5.79086 22.2091 4 20 4H16Z" fill="#FF7262"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M8 8C8 10.2091 9.79086 12 12 12H16V4H12C9.79086 4 8 5.79086 8 8Z" fill="#F24E1E"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C8 18.2091 9.79086 20 12 20H16V12H12C9.79086 12 8 13.7909 8 16Z" fill="#A259FF"></path>
+                    </g>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="../src/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
