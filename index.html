@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- Navbar Section -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center justify-between z-10">
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center justify-between z-10z">
       <div class="container">
         <div class="flex items-center justify-between relative">
           <a class="font-bold text-primary text-lg block py-6" href="#home">Calvin Lawrence</a>
@@ -51,8 +51,8 @@
     <!-- Header End -->
 
     <!-- Hero Start -->
-    <section id="home" class="pt-36">
-      <div class="container border-sky-500 rounded-xl bg-slate-200 p-6">
+    <section id="home" class="pt-36 relative -z-0 bg-[url('/img/bg11.png')] bg-cover bg-center">
+      <div class="container rounded-xl p-6">
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
             <h1 class="text-base font-bold text-primary lg:text-5xl">
@@ -168,13 +168,13 @@
     <section id="tech" class="">
       <div class="container">
         <div class="w-full px-4">
-          <div class="max-w-xl mx-auto text-center mb-24">
+          <div class="md:max-w-md mx-auto text-center mb-24">
             <h2 class="font-bold text-dark text-3xl mb-6 sm:text-4xl lg:text-5xl" data-aos="fade-left">Hal Yang Di Kuasai</h2>
             <div class="flex items-center justify-center lg:flex-row flex-col mr-5">
               <!-- Logo HTML -->
               <div class="flex mr-4" data-aos="flip-left">
                 <span href="#" class="hover:bg-slate-200 hover:ease-out duration-300 inline-flex items-center justify-center w-32 h-32 bg-white rounded-full shadow-md ml-8">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 512 512" id="IconChangeColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 512" id="IconChangeColor">
                     <title>ionicons-v5_logos</title>
                     <path
                       d="M64,32,98.94,435.21,255.77,480,413,435.15,448,32ZM372,164H188l4,51H368L354.49,366.39,256,394.48l-98.68-28L150.54,289H198.8l3.42,39.29L256,343.07l53.42-14.92L315,264H148L135.41,114.41l240.79,0Z"
@@ -186,7 +186,7 @@
 
                 <!-- Logo css -->
                 <span href="#" class="hover:bg-slate-200 hover:ease-out duration-300 inline-flex items-center justify-center w-32 h-32 bg-white rounded-full shadow-md ml-8">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="IconChangeColor" height="90" width="90">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="IconChangeColor" height="100" width="100">
                     <g>
                       <path fill="none" d="M0 0h24v24H0z" id="mainIconPathAttribute"></path>
                       <path fill-rule="nonzero" d="M5 3l-.65 3.34h13.59L17.5 8.5H3.92l-.66 3.33h13.59l-.76 3.81-5.48 1.81-4.75-1.81.33-1.64H2.85l-.79 4 7.85 3 9.05-3 1.2-6.03.24-1.21L21.94 3z" id="mainIconPathAttribute"></path>
@@ -198,7 +198,7 @@
               <div class="flex mt-5 mr-4" data-aos="flip-right">
                 <!-- Logo Tailwind -->
                 <span href="#" class="hover:bg-slate-200 hover:ease-out duration-300 inline-flex items-center justify-center w-32 h-32 bg-white rounded-full shadow-md ml-8">
-                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor" height="90" width="90">
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor" height="100" width="100">
                     <title>Tailwind CSS</title>
                     <path
                       d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
@@ -223,7 +223,7 @@
               <!-- Logo MySql -->
               <div class="flex mt-5 mr-4" data-aos="flip-left">
                 <span href="#" class="hover:bg-slate-200 hover:ease-out duration-300 inline-flex items-center justify-center w-32 h-32 bg-white rounded-full shadow-md ml-8">
-                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor" height="90" width="90">
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor" height="100" width="100">
                     <title>MySQL</title>
                     <path
                       d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"
@@ -234,7 +234,7 @@
                 <!-- Logo Java -->
 
                 <span href="#" class="hover:bg-slate-200 hover:ease-out duration-300 inline-flex items-center justify-center w-32 h-32 bg-white rounded-full shadow-md ml-8">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" id="IconChangeColor" height="90" width="90">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" id="IconChangeColor" height="100" width="100">
                     <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                     <path
                       d="M277.74 312.9c9.8-6.7 23.4-12.5 23.4-12.5s-38.7 7-77.2 10.2c-47.1 3.9-97.7 4.7-123.1 1.3-60.1-8 33-30.1 33-30.1s-36.1-2.4-80.6 19c-52.5 25.4 130 37 224.5 12.1zm-85.4-32.1c-19-42.7-83.1-80.2 0-145.8C296 53.2 242.84 0 242.84 0c21.5 84.5-75.6 110.1-110.7 162.6-23.9 35.9 11.7 74.4 60.2 118.2zm114.6-176.2c.1 0-175.2 43.8-91.5 140.2 24.7 28.4-6.5 54-6.5 54s62.7-32.4 33.9-72.9c-26.9-37.8-47.5-56.6 64.1-121.3zm-6.1 270.5a12.19 12.19 0 0 1-2 2.6c128.3-33.7 81.1-118.9 19.8-97.3a17.33 17.33 0 0 0-8.2 6.3 70.45 70.45 0 0 1 11-3c31-6.5 75.5 41.5-20.6 91.4zM348 437.4s14.5 11.9-15.9 21.2c-57.9 17.5-240.8 22.8-291.6.7-18.3-7.9 16-19 26.8-21.3 11.2-2.4 17.7-2 17.7-2-20.3-14.3-131.3 28.1-56.4 40.2C232.84 509.4 401 461.3 348 437.4zM124.44 396c-78.7 22 47.9 67.4 148.1 24.5a185.89 185.89 0 0 1-28.2-13.8c-44.7 8.5-65.4 9.1-106 4.5-33.5-3.8-13.9-15.2-13.9-15.2zm179.8 97.2c-78.7 14.8-175.8 13.1-233.3 3.6 0-.1 11.8 9.7 72.4 13.6 92.2 5.9 233.8-3.3 237.1-46.9 0 0-6.4 16.5-76.2 29.7zM260.64 353c-59.2 11.4-93.5 11.1-136.8 6.6-33.5-3.5-11.6-19.7-11.6-19.7-86.8 28.8 48.2 61.4 169.5 25.9a60.37 60.37 0 0 1-21.1-12.8z"
@@ -248,7 +248,7 @@
               <!-- Figma Logo -->
               <div class="flex mt-5 mr-4" data-aos="flip-right">
                 <span href="#" class="hover:bg-slate-200 hover:ease-out duration-300 inline-flex items-center justify-center w-32 h-32 bg-white rounded-full shadow-md ml-6">
-                  <svg width="90px" height="90px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="100px" height="100px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">
@@ -261,6 +261,7 @@
                   </svg>
                 </span>
               </div>
+             
             </div>
           </div>
         </div>
@@ -428,14 +429,14 @@
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
-            <h4 class="font-semibold text-lg text-primary mb-2" data-aos="fade-down">Blog</h4>
+            <h4 class="font-semibold text-lg text-primary mb-2" data-aos="fade-right">Blog</h4>
             <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl" data-aos="fade-left">Recent Posts</h2>
             <p class="font-medium text-white text-md md:text-lg" data-aos="fade-right">Blog ini adalah sekumpulan Tips dan Trik yang akan saya bagikan seputar IT</p>
           </div>
         </div>
 
         <div class="flex flex-wrap">
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="flip-left" data-aos-duration="1000">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="flip-right" data-aos-duration="1000">
             <div class="bg-slate-100 rounded-xl overflow-hidden shadow-lg mb-10">
               <img src="img/18.png" alt="Website" class="w-100 h-100" />
               <div class="py-8 px-6">
@@ -448,7 +449,7 @@
 
           <!-- Card 2 -->
 
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="flip-left" data-aos-duration="1000">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="flip-right" data-aos-duration="1000">
             <div class="bg-slate-100 rounded-xl overflow-hidden shadow-lg mb-10">
               <img src="img/LinkWeb.png" alt="" class="w-100 h-100" />
               <div class="py-8 px-6">
@@ -460,7 +461,7 @@
           </div>
           <!-- Card 3 -->
 
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="flip-left" data-aos-duration="1000">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="flip-right" data-aos-duration="1000">
             <div class="bg-slate-100 rounded-xl overflow-hidden shadow-lg mb-10">
               <img src="img/PortofolioTailwind.png" alt="" class="w-100 h-100" />
               <div class="py-8 px-6">
@@ -473,7 +474,7 @@
 
           <!-- Card 4 -->
 
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="flip-left" data-aos-duration="1000">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="flip-right" data-aos-duration="1000">
             <div class="bg-slate-100 rounded-xl overflow-hidden shadow-lg mb-10">
               <img src="img/Figma.jpg" alt="" class="w-100 h-100" />
               <div class="py-8 px-6">
